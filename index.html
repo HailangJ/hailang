@@ -58,14 +58,15 @@
           /* 响应式图片样式 */
           .responsive-img {
 
-            @media (max-width: 500px) {
-                    max-width: 100%;
-                    height: auto;
-                  }
+            
+            max-width: 100%;
+            height: auto;
+            
             @media (min-width: 500px) {
+                    .responsive-img {
                     max-width: 50%;
                     height: auto;
-                  }
+                    }}
             margin: 0 auto; /* 水平居中 */
             display: block; /* 去除默认的行内元素样式 */
           }
