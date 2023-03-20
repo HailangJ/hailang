@@ -7,10 +7,21 @@ body {
     color: #333333;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
-    margin-top: 10%;
+}
+    
+/* 桌面端样式 */
+main {
+    margin-top: 5%;
     margin-bottom: 20%;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* 移动端和平板电脑端样式 */
+@media (max-width: 768px) {
+  main {
+    margin: 0;
+  }
 }
 
 a {
@@ -21,9 +32,7 @@ a:visited {
   color: #B14E2F;
 }
     
-</style>
-    
-<style>
+ 
   /* 响应式图片样式 */
   .responsive-img {
     max-width: 100%;
@@ -53,9 +62,9 @@ a:visited {
 <p><b>My research interests</b>
 <ul>
     <li>Phonotactics</li>
-    <li>Phonological typology</li>
     <li>Phonetics-phonology interface</li>
     <li>Phonological acquisitions</li>
+    <li>Phonological typology</li>
     <li>Optimality Theory</li>
 </ul>
 </p>
