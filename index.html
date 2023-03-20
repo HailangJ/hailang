@@ -1,47 +1,95 @@
 <!DOCTYPE html>
 <html>
+/*************** 以下是头的部分，里面包括了样式style ***************/
 <head>
-<style>
-body {
-    background-color: #F5ECDB;
-    color: #333333;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    
+        <style>
+        body {
+            background-color: #F5ECDB;
+            color: #333333;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
 
-    margin-top: 5%;
-    margin-bottom: 20%;
-    margin-left: 25%;
-    margin-right: 25%;
 
-    @media (max-width: 768px) {
-    margin: 0;
-    }
+            margin-top: 5%;
+            margin-bottom: 20%;
+            margin-left: 25%;
+            margin-right: 25%;
 
-}
-    
-a {
-  color: #D78F54;
-}
+            @media (max-width: 768px) {
+            margin: 0;
+            }
 
-a:visited {
-  color: #B14E2F;
-}
-    
- 
-  /* 响应式图片样式 */
-  .responsive-img {
-    
-    max-width: 50%;
-    height: auto;
-    max-width: 500px; /* 图片最大宽度为 500px */
-    margin: 0 auto; /* 水平居中 */
-    display: block; /* 去除默认的行内元素样式 */
-  }
-</style>
+        }
+
+        a {
+          color: #D78F54;
+        }
+
+        a:visited {
+          color: #B14E2F;
+        }
+
+
+          /* 响应式图片样式 */
+          .responsive-img {
+
+            max-width: 50%;
+            height: auto;
+            max-width: 500px; /* 图片最大宽度为 500px */
+            margin: 0 auto; /* 水平居中 */
+            display: block; /* 去除默认的行内元素样式 */
+          }
+          
+            nav {
+              background-color: #E2C397;
+              height: 50px;
+              display: flex;
+              align-items: center;
+            }
+
+            nav ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              display: flex;
+            }
+
+            nav li {
+              margin: 0 10px;
+            }
+
+            nav a {
+              display: block;
+              color: #fff;
+              text-decoration: none;
+              font-size: 20px;
+              font-weight: bold;
+              padding: 10px;
+              transition: background-color 0.5s ease;
+            }
+
+            nav a:hover {
+              background-color: #555;
+            }
+        </style>
     
 </head>
+/*************** 以下是页眉的部分，里面包括了导航栏目 ***************/
+<header>  
+
+<nav>
+  <ul>
+    <li><a href="hailangjiang.com/home">Home</a></li>
+    <li><a href="hailangjiang.com/cv">CV</a></li>
+    <li><a href="hailangjiang.com/res">Research</a></li>
+    <li><a href="hailangjiang.com/me">About</a></li>
+  </ul>
+</nav>
+  
+<header>
+  
+/*************** 以下是主体body ***************/  
 <body>
 
 <p><b>Hailang Jiang</b>, a future phonologist.<br>I work on <b>theoretical and experimental phonology</b>.<br><b>CV</b>: <a href="https://hailangjiang.com/cv">here</a>; <b>Email</b>: <a href="mailto:hailang.jiang.22@ucl.ac.uk">HAILANG.JIANG.22@UCL.AC.UK</a></p>
@@ -75,4 +123,6 @@ a:visited {
 </p>
     
 </body>
+
+
 </html>
