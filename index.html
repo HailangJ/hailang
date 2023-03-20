@@ -45,25 +45,40 @@
             display: block; /* 去除默认的行内元素样式 */
           }
           
+                
+           .navbar {
+                  background-color: #E2C397;
+                  overflow: hidden;
+                }
+
+                .left-section {
+                  float: left;
+                }
+
+                .right-section {
+                  float: right;
+                }
+/*                
             nav {
               background-color: #E2C397;
               height: 50px;
               display: flex;
               align-items: center;
             }
+*/               
 
-            nav ul {
+            .navbar ul {
               list-style-type: none;
               margin: 0;
               padding: 0;
               display: flex;
             }
 
-            nav li {
+            .navbar li {
               margin: 0 10px;
             }
 
-            nav a {
+            .navbar a {
               display: block;
               color: #fff;
               text-decoration: none;
@@ -83,6 +98,20 @@
 <header>  
 <div style="margin-left: 0%;
             margin-right: 0%;">
+</div>
+        
+<div class="navbar">
+  <div class="left-section">
+    <a href="hailangjiang.com/home">Hailang Jiang</a>
+  </div>
+  <div class="right-section">
+    <a href="hailangjiang.com/cv">CV</a>
+    <a href="hailangjiang.com/res">Research</a>
+    <a href="hailangjiang.com/me">About</a>
+  </div>
+</div>
+        
+/*        
 <nav>
   <ul>
           <div style="color: #000000;">
@@ -96,7 +125,7 @@
           </div>
   </ul>
 </nav>
-</div>
+
   
 <header>
   
