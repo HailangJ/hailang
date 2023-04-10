@@ -152,8 +152,9 @@
 <header>
     
   <div>
-    <!-- 包含导航栏的 HTML 代码 -->
-    {% include includes/navbar.html %}
+        $(function(){
+            $("#navbar-placeholder").load("navbar.html");
+        });
   </div>     
         
 </header>
