@@ -3,6 +3,16 @@
   src: url("fonts/Palatino.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Din";
+  src: url("fonts/DIN Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/GothamBold.ttf") format("truetype");
+}
+
        header {
             width: 100%;
             margin-top: 0;
@@ -30,7 +40,7 @@
         body {
             background-color: #F5ECDB;
             color: #333333;
-            font-family: "Palatino", Times New Roman, Helvetica, Arial, sans-serif;
+            font-family: "Gotham", Helvetica, Times New Roman, Arial, sans-serif;
             font-size: 18px;
             line-height: 1.5;
 
@@ -86,7 +96,6 @@
                   margin: 0;
                   display: flex;
                   justify-content: space-between;
-                  font-family: Helvetica;
                   align-items: center;
                   padding: 0px;
                   background-color: #E2C397;
@@ -128,7 +137,7 @@
               display: block;
               color: #fff;
               text-decoration: none;
-              font-family: Helvetica;
+              font-family: "Din", Helvetica, Times New Roman, Arial, sans-serif;
               font-size: 20px;
               font-weight: bold;
               padding: 10px;
