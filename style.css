@@ -35,11 +35,11 @@
             margin: 0 25%; /* 设置左右边距为25% */
           }
         }
-
-
+                
+                
         body {
-            background-color: #98B0BE;
-            color: #545557;
+            background-color: #F5ECDB;
+            color: #333333;
             font-family: "Palatino", Times New Roman, Helvetica, Arial, sans-serif;
             font-size: 18px;
             line-height: 1.5;
@@ -63,11 +63,11 @@
         }
 
         a {
-          color: #CAA87B;
+          color: #D78F54;
         }
 
         a:visited {
-          color: #90725A;
+          color: #B14E2F;
         }
         
         a {
